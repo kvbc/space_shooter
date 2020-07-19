@@ -45,13 +45,13 @@ void Menu::options() {
 	Option FPS = value(m_op[OP_FPS]);
 
 	while(true) {
-		writeOption("FPS",			   {OPTION_NAME_POS_X, 1},  m_op[0], {OPTION_VALUE_POS_X, 1},  m_board);
-		writeOption("Board Width",	   {OPTION_NAME_POS_X, 3},  m_op[1], {OPTION_VALUE_POS_X, 3},  m_board);
-		writeOption("Board Height",	   {OPTION_NAME_POS_X, 5},  m_op[2], {OPTION_VALUE_POS_X, 5},  m_board);
+		writeOption("FPS",	       {OPTION_NAME_POS_X, 1},  m_op[0], {OPTION_VALUE_POS_X, 1},  m_board);
+		writeOption("Board Width",     {OPTION_NAME_POS_X, 3},  m_op[1], {OPTION_VALUE_POS_X, 3},  m_board);
+		writeOption("Board Height",    {OPTION_NAME_POS_X, 5},  m_op[2], {OPTION_VALUE_POS_X, 5},  m_board);
 		writeOption("Player's Health", {OPTION_NAME_POS_X, 7},  m_op[3], {OPTION_VALUE_POS_X, 7},  m_board);
 		writeOption("Player's Damage", {OPTION_NAME_POS_X, 9},  m_op[4], {OPTION_VALUE_POS_X, 9},  m_board);
 		writeOption("Player's Speed",  {OPTION_NAME_POS_X, 11}, m_op[5], {OPTION_VALUE_POS_X, 11}, m_board);
-		writeOption("Enemies",		   {OPTION_NAME_POS_X, 13}, m_op[6], {OPTION_VALUE_POS_X, 13}, m_board);
+		writeOption("Enemies",	       {OPTION_NAME_POS_X, 13}, m_op[6], {OPTION_VALUE_POS_X, 13}, m_board);
 		writeOption("Enemy's Health",  {OPTION_NAME_POS_X, 15}, m_op[7], {OPTION_VALUE_POS_X, 15}, m_board);
 		writeOption("Enemy's Damage",  {OPTION_NAME_POS_X, 17}, m_op[8], {OPTION_VALUE_POS_X, 17}, m_board);
 		m_board.write("BACK", {OP_BACK_POS_X, OP_BACK_POS_Y}, true);
