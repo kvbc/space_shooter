@@ -3,18 +3,18 @@
 
 void cmd::clear() {
 	HANDLE hOut = GetStdHandle(STD_OUTPUT_HANDLE);
-    DWORD buffer;
+    	DWORD buffer;
 	FillConsoleOutputCharacter(hOut, ' ', 1, {0, 0}, &buffer);
 	SetConsoleCursorPosition(hOut, {0, 0});
 }
 
 
 void cmd::hideCursor() {
-    HANDLE out = GetStdHandle(STD_OUTPUT_HANDLE);
-    CONSOLE_CURSOR_INFO cursorInfo;
-    GetConsoleCursorInfo(out, &cursorInfo);
-    cursorInfo.bVisible = false;
-    SetConsoleCursorInfo(out, &cursorInfo);
+	HANDLE out = GetStdHandle(STD_OUTPUT_HANDLE);
+	CONSOLE_CURSOR_INFO cursorInfo;
+	GetConsoleCursorInfo(out, &cursorInfo);
+	cursorInfo.bVisible = false;
+	SetConsoleCursorInfo(out, &cursorInfo);
 }
 
 
