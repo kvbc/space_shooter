@@ -20,7 +20,7 @@ bool Board::inside(const Vector2 &pos) const {
 
 	return
 		x >= 0		&&
-		x < BSIZE_X &&
+		x < BSIZE_X     &&
 		y >= 0		&&
 		y < BSIZE_X;
 }
