@@ -60,7 +60,7 @@ bool Entity::inside(const Vector2 &pos) const {
 
 	return
 		x >= px		 &&
-		x <= px + sx &&
+		x <= px + sx     &&
 		y >= py		 &&
 		y <= py + sy;
 }
