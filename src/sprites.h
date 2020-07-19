@@ -6,7 +6,7 @@
 			"\xDB\xDC\xDC\xDB\xDB\xDB\xDC\xDC\xDB",  \
 			"\xDB  \xDB\xDB\xDB  \xDB"
 			/*
-					#    
+				    #    
 				#########
 				#  ###  #
 			*/
