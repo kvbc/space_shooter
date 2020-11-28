@@ -1,2 +1,2 @@
 # space_shooter
-A little cmd space shooter game written in C++
+A little windows-specific cmd space shooter game written in C++
